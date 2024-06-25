@@ -3,8 +3,8 @@ from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
 
-# an = driver.get(input("Porfavor escribe la url del sitio a analizar, recuerda poner https://: "))
-driver.get("https://devandresl.github.io/Portafolio/")
+an = driver.get(input("Porfavor escribe la url del sitio a analizar, recuerda poner https://: "))
+
 
 # title
 titulo = driver.title
